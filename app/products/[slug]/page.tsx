@@ -12,6 +12,13 @@ import { products, Product } from '@/data/products';
 import { useCart } from '@/contexts/CartContext';
 import Link from 'next/link';
 
+// Generate static params for all products
+export function generateStaticParams() {
+  return products.map((product) => ({
+    slug: product.slug,
+  }));
+}
+
 export default function ProductDetail() {
   const { slug } = useParams();
   const { dispatch } = useCart();
