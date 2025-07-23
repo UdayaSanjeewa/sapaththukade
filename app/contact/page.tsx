@@ -66,7 +66,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-900">Phone</h4>
-                    <p className="text-gray-600">+94 77 123 4567</p>
+                    <p className="text-gray-600">+94 76 461 1915</p>
                     <p className="text-sm text-gray-500">Mon-Sat 9:00 AM - 8:00 PM</p>
                   </div>
                 </div>
@@ -77,7 +77,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-900">WhatsApp</h4>
-                    <p className="text-gray-600">+94 77 123 4567</p>
+                    <p className="text-gray-600">+94 76 461 1915</p>
                     <p className="text-sm text-gray-500">Quick responses available</p>
                   </div>
                 </div>
